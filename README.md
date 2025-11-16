@@ -43,7 +43,7 @@ X
 
 ## Quick Visualization
 
-<img src="" width="100px"><br><img src="" width="100px">
+<img src="img/car_graph.png" width="100px"><br><img src="img/nba_graph.png" width="100px">
 
 ## Contributing
 
