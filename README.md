@@ -43,7 +43,9 @@ X
 
 ## Quick Visualization
 
-<img src="img/car_graph.png" width="200px"> &nbsp <img src="img/nba_graph.png" width="200px">
+<img src="img/car_graph.png" width="300px">
+<br>
+<img src="img/nba_graph.png" width="300px">
 
 ## Contributing
 
