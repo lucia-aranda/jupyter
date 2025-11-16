@@ -35,13 +35,11 @@ This is a responsive javascript portfolio using mathematical exercises with recu
 
 It combines JavaScript animations, CSS styling, Bootstrap and modern front-end techniques to create an engaging user experience. The project features interactive hover effects, and minimalist design that enhance visual simplicity. With clean code structure, the project demonstrates both technical skills like JavaScript DOM manipulation, alongside strong design sensibility through responsive layouts and user-friendly navigation. 👩‍💻
 
-Whether you're a developer interested in seeing clean implementations of fundamental programming patterns, or someone curious about how code can tackle mathematical puzzles, this portfolio offers hands-on examples that are both educational and engaging. Each exercise is designed to make complex computational logic accessible and visual. 📔
+Whether you're a developer interested in seeing clean implementations of fundamental programming patterns, or someone curious about how code can tackle mathematical puzzles, this portfolio offers hands-on examples that are both educational and engaging. Each exercise is designed to make complex computational logic accessible and visual. 📔 problem solved,  how can i use it, how can i apply it, why it exists
 
 ## Use case
 
-X
-
-## Quick Visualization
+code example
 
 <img src="img/car_graph.png" width="300px">
 <br>
