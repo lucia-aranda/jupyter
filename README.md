@@ -9,13 +9,15 @@
 
 | #   | Section                                                                                                                              |
 | --- | ---------------------------------------------------------------------------------------------------------------|
-| 🚗   | [Car notebook](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/CAR_ANALYSIS.ipynb) + [CSV data file](https://github.com/lucia-aranda/jupyter/blob/main/csv/auto.csv): .  |
-| 🏀   | [NBA notebook no.1](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/NBA_P1_ANALYSIS.ipynb) + [NBA notebook no.2](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/NBA_P2_ANALYSIS.ipynb) + [CSV data file](https://lucia-aranda.github.io/javascript/): .  |
-| 📋   | [Reports](https://github.com/lucia-aranda/jupyter/tree/main/pdf): .  |
+| 🚗   | [Car notebook](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/CAR_ANALYSIS.ipynb) + [CSV data file](https://github.com/lucia-aranda/jupyter/blob/main/csv/auto.csv)  |
+| 🏀   | [NBA notebook no.1](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/NBA_P1_ANALYSIS.ipynb) + [NBA notebook no.2](https://github.com/lucia-aranda/jupyter/blob/main/ipynb/NBA_P2_ANALYSIS.ipynb) + [CSV data file](https://lucia-aranda.github.io/javascript/)  |
+| 📋   | [Reports](https://github.com/lucia-aranda/jupyter/tree/main/pdf)  |
 
 ## Prerequisites
 
 To run the project locally, you need a development environment installed on your machine:
+
+- `Python 3.12.x or upper`
 
 - `Jupyter Notebook (or any other similar application)`
 
@@ -23,11 +25,29 @@ And internet conection 🌐 to propertly load libraries.
 
 ## Installation
 
-To install it, run the next command:
+To run Jupyter Notebook in your personal computer, download <a src="https://www.python.org/">python</a> and run the installer:
+
+- `Add Python to PATH [!important]`
+
+Next, open the command prompt (Windows + R, then type 'cmd') and copy paste:
 
 ```
-X
+python --version
 ```
+
+Once you confirm the required version is installed in your computer, install jupyter with:
+
+```
+pip install notebook
+```
+
+Finally, open the application with the sentence:
+
+```
+jupyter notebook
+```
+
+Create a new folder, add the files (csv and ipynb) in the same folder and you can now run each line of code from the top to the bottom.
 
 ## Concept
 
@@ -39,10 +59,25 @@ Whether you're a developer interested in seeing clean implementations of fundame
 
 ## Use case
 
-code example
+This small example creates a graph showing in a box relation between a car body-type and price.
+
+```
+sns.boxplot(x='body-style', y='price', data=df)
+```
 
 <img src="img/car_graph.png" width="300px">
 <br>
+
+To this example makes a graph showing NBA strikes per year.
+
+```
+df_line_final.plot(kind='line')
+plt.title('Evolución de tiros de NBA')
+plt.ylabel('Número de tiros')
+plt.xlabel('Year')
+plt.show()
+```
+
 <img src="img/nba_graph.png" width="300px">
 
 ## Contributing
