@@ -19,7 +19,7 @@ To run the project locally, you need a development environment installed on your
 
 - `Python 3.12.x or upper`
 
-- `Jupyter Notebook (or any other similar application)`
+- `Jupyter Notebook`
 
 And internet conection 🌐 to propertly load libraries.
 
