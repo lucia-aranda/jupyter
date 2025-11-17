@@ -51,11 +51,12 @@ Create a new folder, add the files (csv and ipynb) in the same folder and you ca
 
 ## Concept
 
-This is a responsive javascript portfolio using mathematical exercises with recursivity, arrays, selection, including while, do while, and for loops. Showcases fundamental programming logic and control flow structures with practical, executable examples. 🧮
+This repository storages code that analyzes data from corresponding csv files with Jupyter, using pandas, matplotlib, numpy, seaborn, scipy and piplite libraries. 📈
 
-It combines JavaScript animations, CSS styling, Bootstrap and modern front-end techniques to create an engaging user experience. The project features interactive hover effects, and minimalist design that enhance visual simplicity. With clean code structure, the project demonstrates both technical skills like JavaScript DOM manipulation, alongside strong design sensibility through responsive layouts and user-friendly navigation. 👩‍💻
+The analysis focuses on the manipulation and transformation of a dataframe from a CSV file, which generates graphical results in tables. This seeks to generate descriptive statistics, transform the data, and create new dataframes from the columns of the original dataframes, using methods such as .describe() or .to_frame(), for example.
+You can use this to read any csv file and easily visualize large data amounts. 🗃️
 
-Whether you're a developer interested in seeing clean implementations of fundamental programming patterns, or someone curious about how code can tackle mathematical puzzles, this portfolio offers hands-on examples that are both educational and engaging. Each exercise is designed to make complex computational logic accessible and visual. 📔 problem solved,  how can i use it, how can i apply it, why it exists
+Whether you're a developer interested in seeing implementations of data analysis, or someone curious about how code can show visual data representation, this portfolio offers hands-on educational examples. 🖥️
 
 ## Use case
 
