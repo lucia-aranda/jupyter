@@ -41,7 +41,7 @@ Once you confirm the required version is installed in your computer, install jup
 pip install notebook
 ```
 
-Finally, open the application with the sentence:
+Finally, open the application with the command:
 
 ```
 jupyter notebook
