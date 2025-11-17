@@ -59,7 +59,8 @@ Whether you're a developer interested in seeing clean implementations of fundame
 
 ## Use case
 
-This small example creates a graph showing in a box relation between a car body-type and price.
+This small code example from [Car Notebook], creates a box graph (boxplot) showing quantitative data according to categories, taking by reference [body-style] in 'x' and [price] in 'y'. 
+In other words, the relation between cars' body-type and their price.
 
 ```
 sns.boxplot(x='body-style', y='price', data=df)
@@ -68,7 +69,8 @@ sns.boxplot(x='body-style', y='price', data=df)
 <img src="img/car_graph.png" width="300px">
 <br>
 
-To this example makes a graph showing NBA strikes per year.
+This other code example from [NBA Notebook], creates a line graph with data obtained from df_line_final, set the title and assign 'y' and 'x' axis label.
+The graph basically show NBA strikes per year.
 
 ```
 df_line_final.plot(kind='line')
